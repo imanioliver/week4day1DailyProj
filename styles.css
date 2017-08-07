@@ -1,0 +1,43 @@
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
+
+.myName {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align:center;
+    background-color: black;
+    color: white;
+    height: 200px;
+
+}
+
+.basics div {
+    display: flex;
+    width: 60%;
+    width: 20%;
+    padding-right: 10%;
+
+}
+
+
+.story div {
+    display: flex;
+    width: 60%;
+    width: 20%;
+    padding-right: 10%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+/*img {
+    float: right;
+}*/
