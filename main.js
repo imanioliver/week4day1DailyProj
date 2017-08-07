@@ -46,9 +46,9 @@ function allTheRealThings(){
   console.log(data.name);
   console.log(data.email);
 
-    console.log(myName.innerHTML+= `<h1>${data.name}</h1>`);
+    console.log(myName.innerHTML+= `<h1 class="html_h1">${data.name}</h1>`);
     console.log(myInfo.innerHTML+= `<p>Name: ${data.name} </p>`);
-    console.log(myInfo.innerHTML+= `<p>Github URL: ${data.url} </p>`); //do I assign a value to this url? So that there is a hyperpnk?
+    console.log(myInfo.innerHTML+= `<p>Github URL: <a href=${data.html_url}>ImaniOliver</a> </p>`); //do I assign a value to this url? So that there is a hyperpnk?
     console.log(myInfo.innerHTML+= `<p>Email:${data.email} </p>`);
     console.log(myInfo.innerHTML+= `<p>Company: ${data.company} </p>`);
     console.log(myInfo.innerHTML+= `<p>Website: ${data.blog}</p>`);
